@@ -3,4 +3,10 @@ var isRealString=(str)=>{
 
 
 };
-module.exports={isRealString};
+
+var isUpperCaseString=(uprStr)=>{
+
+return uprStr.toUpperCase();
+};
+
+module.exports={isRealString, isUpperCaseString};
